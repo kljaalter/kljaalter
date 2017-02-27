@@ -1,0 +1,197 @@
+body {
+  margin: 0px 0px 0px 0px;
+}
+#site {
+	
+}
+
+#header {
+	float:left;
+	width: 4000px;
+	height:180px;
+	background-color:#00cc44;
+	margin-top:-20px;
+	margin-left:-20px;
+	position: fixed;
+	z-index: 950;
+}
+
+#logo {
+	float:left;
+	height:120px;
+	width:120px;
+	margin-left:60px;
+	margin-top:30px;
+}
+#logoaalter {
+	float:left;
+	height:120px;
+	width:auto;
+	margin-left:15px;
+	margin-top:40px;
+}
+
+#titlelink {
+	text-decoration:none;
+}
+
+#nav1 {
+	margin-left:-20px;
+	position: fixed;
+	margin-top:160px;
+	float:left;
+	width:280px;
+	height:100%;
+	background-color:#262626;
+}
+
+#nav1 ul{
+	list-style-type: none;
+	margin-left:40px;
+	margin-top:120px;
+    padding: 0;
+}
+
+#nav1 li {
+	margin-top:20px;
+}
+
+#nav1 li a {
+    text-decoration: none;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:200%;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	padding-right:35px;
+}
+
+#nav1 li a:hover {
+	background-color:#00cc44;
+}
+#nav1 ul #f {
+	margin-top:10px;
+	width:32px;
+    height:32px;
+}
+
+#nav1 ul #insta {
+ width:32px;
+ height:32px;
+}
+
+#nav1 #social {
+	margin-top:40px;
+	margin-left:40px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:150%;
+}
+#main {
+	
+}
+
+#calendar {
+	margin-left:320px;
+	margin-top:220px;
+	width:950px;
+	height:500px;
+    border: 0;
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+	
+}
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1550px) {
+}
+@media only screen and (max-width: 1490px) {
+	
+	#nav1 #social {
+	margin-top:40px;
+	margin-left:40px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:250%;
+}
+	#nav1 ul #f {
+	margin-left:-10px;		
+	margin-top:10px;
+	width:0px;
+    height:0px;
+}
+
+#nav1 ul #insta {
+ margin-left:-10px;
+ width:0px;
+ height:0px;
+}
+	#nav1 li {
+	margin-top:80px;
+}
+
+#nav1 li a {
+    text-decoration: none;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:320%;
+	margin-left:-10px;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	padding-right:20px;
+}
+#nav1 {
+	margin-left:-20px;
+	position: fixed;
+	margin-top:160px;
+	float:left;
+	width:320px;
+	height:100%;
+	background-color:#262626;
+}
+#calendar {
+	float:left;
+	margin-left:300px;
+	margin-top:160px;
+    width:225px;
+	height:525px;
+	-ms-transform: scale(3);
+    -moz-transform: scale(3);
+    -o-transform: scale(3);
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+	z-index: 900;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
