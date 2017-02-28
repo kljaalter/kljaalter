@@ -128,7 +128,7 @@ body {
 	height:auto;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
 	
 	#nav1 #social {
 	margin-top:40px;
