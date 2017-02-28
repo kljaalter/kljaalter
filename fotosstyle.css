@@ -138,6 +138,12 @@ body {
 	height:708px;
 	margin-top:40px;
 }
+iframe {
+		margin-top:220px;
+	    margin-left:280px;
+		height:1500px;
+        width:850px;
+	}
 
 @media only screen and (max-width: 1600px) {
 	#fotos {
