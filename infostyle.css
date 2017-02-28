@@ -95,7 +95,10 @@ body {
 	font-size:150%;
 }
 #main {
-	
+        margin-top:220px;
+	    margin-left:280px;
+		height:1500px;
+        width:850px;
 }
 
 #text{
