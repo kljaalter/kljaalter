@@ -1,6 +1,5 @@
 body {
   margin: 0px 0px 0px 0px;
-
 }
 #site {
 	
@@ -11,10 +10,9 @@ body {
 	width: 4000px;
 	height:180px;
 	background-color:#00cc44;
-	margin-top:-20px;
+	margin-top:-240px;
 	margin-left:-20px;
 	position: fixed;
-	z-index: 900;
 }
 
 #logo {
@@ -46,7 +44,7 @@ body {
 #nav1 {
 	margin-left:-20px;
 	position: fixed;
-	margin-top:160px;
+	margin-top:-60px;
 	float:left;
 	width:280px;
 	height:100%;
@@ -97,22 +95,25 @@ body {
 	font-size:150%;
 }
 #main {
-	
-}
-
-iframe {
-		margin-top:220px;
+        margin-top:220px;
 	    margin-left:280px;
 		height:1500px;
         width:850px;
-	}
+}
+
+#text{
+	font-family: 'Roboto', sans-serif;
+	font-size:180%;
+	margin-top:220px;
+	margin-left:40px;
+}
 
 @media only screen and (max-width: 1600px) {
 
 }
-}
 
 @media only screen and (max-width: 1550px) {
+
 
 }
 @media only screen and (max-width: 1000px) {
@@ -154,20 +155,16 @@ iframe {
 #nav1 {
 	margin-left:-20px;
 	position: fixed;
-	margin-top:160px;
+	margin-top:-60px;
 	float:left;
 	width:320px;
 	height:100%;
 	background-color:#262626;
-	z-index: 950;
 }
-iframe {
-	float:left;
-    margin-left:250px;
-	margin-top:160px;
-    width:730px;
-	height:100%;
-	z-index: 900;
+#text {
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size:200%;
 }
 }
 

@@ -95,6 +95,11 @@ body {
 	font-size:150%;
 }
 #main {
+	
+}
+
+
+#main {
         margin-top:220px;
 	    margin-left:280px;
 		height:1500px;
@@ -109,12 +114,24 @@ body {
 }
 
 @media only screen and (max-width: 1600px) {
-
+	#fotos {
+	margin-top:240px;
+	margin-left:220px;
+	float:left;
+	width:600px;
+	height:auto;
+}
 }
 
 @media only screen and (max-width: 1550px) {
 
-
+	#fotos {
+	margin-top:240px;
+	margin-left:180px;
+	float:left;
+	width:600px;
+	height:auto;
+}
 }
 @media only screen and (max-width: 1000px) {
 	
@@ -161,10 +178,11 @@ body {
 	height:100%;
 	background-color:#262626;
 }
-#text {
-	color:black;
+#text{
 	font-family: 'Roboto', sans-serif;
-	font-size:200%;
+	font-size:180%;
+	margin-top:220px;
+	margin-left:40px;
 }
 }
 
