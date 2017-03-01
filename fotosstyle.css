@@ -158,7 +158,19 @@ and (max-device-width : 736px)
 		margin-top:220px;
 	    margin-left:280px;
 		height:1500px;
-        width:650px;
+        width:330px;
+
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
 	}
 		#nav1 li a {
     text-decoration: none;
