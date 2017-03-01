@@ -98,49 +98,10 @@ body {
 	
 }
 
-#fotos {
-	margin-top:240px;
-	margin-left:280px;
-	float:left;
-	width:600px;
-	height:auto;
-}
-#fototop {
-	float:right;
-	height:708px;
-	width:500px;
-}
 
-#foto {
-	float:right;
-	height:708px;
-	width:500px;
-	margin-top:40px;
-}
-#textdiv {
-	float:right;
-	width:700px;
-	height:auto;
-	margin-top:220px;
-	margin-right:-5px;
-	
-}
-
-#texttop {
-	font-family: 'Roboto', sans-serif;
-	font-size:130%;
-	height:708px;
-}
-
-#text{
-	font-family: 'Roboto', sans-serif;
-	font-size:130%;
-	height:708px;
-	margin-top:40px;
-}
 iframe {
 		margin-top:220px;
-	    margin-left:270px;
+	    margin-left:280px;
 		height:1500px;
         width:850px;
 	}
