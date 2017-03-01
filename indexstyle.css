@@ -106,6 +106,34 @@ iframe {
 		height:1500px;
         width:850px;
 	}
+	/*** Works on common browsers ***/
+::selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #e21818;
+    color: #fff;
+}
 	
 	/* iphone 6 + */
 	@media only screen 
