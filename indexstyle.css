@@ -89,7 +89,19 @@ body {
  height:32px;
 }
 
-#develop {
+#footer {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+	margin-left:50px;
+}
+#privacy {
+	margin-top:10px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+	margin-left:50px;
+}
+#developlink {
 	margin-top:90px;
 	font-family: 'Roboto', sans-serif;
 	color:#707070;
@@ -177,12 +189,25 @@ and (max-device-width : 736px)
 #nav1 li {
 	margin-top:30px;
 }
-#develop {
-	margin-top:400px;
+#footer {
+	margin-top:350px;
 	font-family: 'Roboto', sans-serif;
 	color:#828282;
-	font-size:150%;
+	font-size:130%;
 	}
+#privacy {
+	margin-top:120px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+	font-size:130%;
+	margin-left:50px;
+}
+#developlink {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	font-size:110%;
+	color:#707070;
+}
 }
 /* ipad */
 @media only screen 
@@ -195,12 +220,26 @@ and (-webkit-min-device-pixel-ratio: 1)
 	    margin-left:280px;
 		height:1500px;
         width:660px;
-	}	
-	#develop {
+	}
+#footer {
 	margin-top:300px;
 	font-family: 'Roboto', sans-serif;
 	color:#828282;
 	font-size:130%;
 	}
+#privacy {
+	margin-top:120px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+	font-size:130%;
+	margin-left:50px;
+}
+#developlink {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	font-size:100%;
+	color:#707070;
+}
+
 }
 
