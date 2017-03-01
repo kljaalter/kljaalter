@@ -112,9 +112,8 @@ body {
 	margin-top:220px;
 	margin-left:40px;
 }
-	  /* iphone 6 + */
 	@media only screen 
-and (min-device-width : 414px) 
+and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
 	#main {

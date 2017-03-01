@@ -145,9 +145,8 @@ iframe {
         width:850px;
 	}
 	
-	  /* iphone 6 + */
 	@media only screen 
-and (min-device-width : 414px) 
+and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
 	iframe {
