@@ -13,6 +13,7 @@ body {
 	margin-top:-20px;
 	margin-left:-20px;
 	position: fixed;
+	z-index: 950;
 }
 
 #logo {
@@ -159,6 +160,7 @@ and (max-device-width : 736px)
 	    margin-left:280px;
 		height:1500px;
         width:330px;
+		z-index: 900;
 
     -ms-transform: scale(2);
     -moz-transform: scale(2);
@@ -228,6 +230,7 @@ and (-webkit-min-device-pixel-ratio: 1)
 	    margin-left:280px;
 		height:1500px;
         width:660px;
+		z-index: 900;
 	}	
 	#footer {
 	margin-top:300px;
