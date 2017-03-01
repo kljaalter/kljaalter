@@ -89,6 +89,12 @@ body {
  height:32px;
 }
 
+#develop {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+}
+
 #nav1 #social {
 	margin-top:40px;
 	margin-left:40px;
@@ -171,6 +177,12 @@ and (max-device-width : 736px)
 #nav1 li {
 	margin-top:30px;
 }
+#develop {
+	margin-top:400px;
+	font-family: 'Roboto', sans-serif;
+	color:#828282;
+	font-size:150%;
+	}
 }
 /* ipad */
 @media only screen 
@@ -184,5 +196,11 @@ and (-webkit-min-device-pixel-ratio: 1)
 		height:1500px;
         width:660px;
 	}	
+	#develop {
+	margin-top:300px;
+	font-family: 'Roboto', sans-serif;
+	color:#828282;
+	font-size:130%;
+	}
 }
 

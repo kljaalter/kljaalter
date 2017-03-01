@@ -95,6 +95,11 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size:150%;
 }
+#develop {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+}
 #main {
 	
 }
