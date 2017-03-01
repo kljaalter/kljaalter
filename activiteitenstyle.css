@@ -111,7 +111,7 @@ body {
     transform-origin: 0 0;
 	
 }
-
+     /* iphone 6 + */
 	@media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 736px)
@@ -159,6 +159,32 @@ and (max-device-width : 736px)
 }
 #nav1 li {
 	margin-top:30px;
+}
+}
+/* ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)
+{
+  #calendar {
+	margin-left:270px;
+	margin-top:180px;
+	width:350px;
+	height:560px;
+    border: 0;
+	-ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+	
 }
 }
 

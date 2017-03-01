@@ -144,8 +144,8 @@ iframe {
 		height:1500px;
         width:850px;
 	}
-	
-	@media only screen 
+        /* iphone 6 + */
+		@media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
@@ -180,6 +180,19 @@ and (max-device-width : 736px)
 #nav1 li {
 	margin-top:30px;
 }
+}
+/* ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)
+{
+	iframe {
+		margin-top:220px;
+	    margin-left:280px;
+		height:1500px;
+        width:660px;
+	}	
 }
 
 
