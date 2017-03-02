@@ -1,6 +1,7 @@
 body {
-  margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
+
 #site {
 	
 }
@@ -23,6 +24,7 @@ body {
 	margin-left:60px;
 	margin-top:30px;
 }
+
 #logoaalter {
 	float:left;
 	height:120px;
@@ -70,6 +72,7 @@ body {
 #nav1 li a:hover {
 	background-color:#00cc44;
 }
+
 #nav1 ul #f {
 	margin-top:10px;
 	width:32px;
@@ -77,21 +80,24 @@ body {
 }
 
 #nav1 ul #insta {
- width:32px;
- height:32px;
+	width:32px;
+	height:32px;
 }
+
 #footer {
 	margin-top:90px;
 	font-family: 'Roboto', sans-serif;
 	color:#707070;
 	margin-left:50px;
 }
+
 #privacy {
 	margin-top:120px;
 	font-family: 'Roboto', sans-serif;
 	color:#707070;
 	margin-left:50px;
 }
+
 #developlink {
 	margin-top:90px;
 	font-family: 'Roboto', sans-serif;
@@ -105,6 +111,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size:150%;
 }
+
 #main {
 	
 }
@@ -128,6 +135,7 @@ body {
     transform-origin: 0 0;
 	
 }
+
 /*** Works on common browsers ***/
 ::selection {
     background-color: #e21818;
@@ -156,6 +164,7 @@ body {
     background-color: #e21818;
     color: #fff;
 }
+
      /* iphone 6 + */
 	@media only screen 
 and (min-device-width : 320px) 
@@ -180,6 +189,7 @@ and (max-device-width : 736px)
     transform-origin: 0 0;
 	
 }
+
 	#nav1 li a {
     text-decoration: none;
 	color:#fff;
@@ -190,6 +200,7 @@ and (max-device-width : 736px)
 	padding-left:10px;
 	padding-right:35px;
 }
+
 #nav1 ul #f {
 	margin-top:10px;
 	width:0px;
@@ -198,19 +209,22 @@ and (max-device-width : 736px)
 }
 
 #nav1 ul #insta {
- width:0px;
- height:0px;
- margin-left:-5px;
+   width:0px;
+   height:0px;
+   margin-left:-5px;
 }
+
 #nav1 li {
 	margin-top:30px;
 }
+
 #footer {
 	margin-top:350px;
 	font-family: 'Roboto', sans-serif;
 	color:#828282;
 	font-size:130%;
-	}
+}
+
 #privacy {
 	margin-top:120px;
 	font-family: 'Roboto', sans-serif;
@@ -218,13 +232,16 @@ and (max-device-width : 736px)
 	font-size:130%;
 	margin-left:50px;
 }
+
 #developlink {
 	margin-top:90px;
 	font-family: 'Roboto', sans-serif;
 	font-size:110%;
 	color:#707070;
 }
+
 }
+
 /* ipad */
 @media only screen 
 and (min-device-width : 768px) 
@@ -250,12 +267,14 @@ and (-webkit-min-device-pixel-ratio: 1)
     transform-origin: 0 0;
 	
 }
+
 #footer {
 	margin-top:300px;
 	font-family: 'Roboto', sans-serif;
 	color:#828282;
 	font-size:130%;
-	}
+}
+
 #privacy {
 	margin-top:120px;
 	font-family: 'Roboto', sans-serif;
@@ -263,13 +282,18 @@ and (-webkit-min-device-pixel-ratio: 1)
 	font-size:130%;
 	margin-left:50px;
 }
+
 #developlink {
 	margin-top:90px;
 	font-family: 'Roboto', sans-serif;
 	font-size:100%;
 	color:#707070;
 }
+
 }
+
+
+/* Site developed by Wout Corijn */
 
 
 
