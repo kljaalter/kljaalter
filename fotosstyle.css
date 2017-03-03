@@ -246,6 +246,25 @@ and (max-device-width : 736px)
 	color:#707070;
 }
 
+
+#foto {
+	font-size:250%;
+	display: inline-block;
+    margin-top:20px;
+	color:#e21818;
+}
+
+#fototitle {
+	margin-top:220px;
+	font-size:300%;
+	text-decoration: underline;
+}
+
+#jaar {
+	font-size:300%;
+	margin-top:50px;
+}
+
 }
 
 /* ipad */
@@ -282,6 +301,24 @@ and (-webkit-min-device-pixel-ratio: 1)
 	font-family: 'Roboto', sans-serif;
 	font-size:100%;
 	color:#707070;
+}
+
+#foto {
+	font-size:200%;
+	display: inline-block;
+    margin-top:20px;
+	color:#e21818;
+}
+
+#fototitle {
+	margin-top:170px;
+	font-size:300%;
+	text-decoration: underline;
+}
+
+#jaar {
+	font-size:250%;
+	margin-top:50px;
 }
 
 }
