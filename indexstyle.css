@@ -95,7 +95,7 @@ body {
 }
 
 #footer {
-	margin-top:90px;
+	margin-top:40px;
 	font-family: 'Roboto', sans-serif;
 	color:#707070;
 	margin-left:50px;
@@ -169,7 +169,7 @@ and (max-device-width : 736px)
 {
 iframe {
 	margin-top:220px;
-	margin-left:280px;
+	margin-left:220px;
     height:1500px;
     width:650px;
 }
@@ -233,7 +233,7 @@ and (-webkit-min-device-pixel-ratio: 1)
 {
 iframe {
 	margin-top:220px;
-	margin-left:280px;
+	margin-left:220px;
     height:1500px;
     width:660px;
 }

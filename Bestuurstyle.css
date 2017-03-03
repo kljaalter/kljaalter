@@ -101,7 +101,7 @@ body {
 }
 
 #footer {
-	margin-top:90px;
+	margin-top:40px;
 	font-family: 'Roboto', sans-serif;
 	color:#707070;
 	margin-left:50px;
@@ -122,6 +122,12 @@ body {
 
 #main {
 	
+}
+
+#bestuur {
+	font-size:200%;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
 }
 
 #list {

@@ -93,7 +93,7 @@ body {
 }
 
 #footer {
-	margin-top:90px;
+	margin-top:40px;
 	font-family: 'Roboto', sans-serif;
 	color:#707070;
 	margin-left:50px;
@@ -131,10 +131,17 @@ body {
     width:850px;
 }
 
+#info {
+	font-family: 'Roboto', sans-serif;
+	font-size:200%;
+	text-decoration: underline;
+	margin-left:40px;
+}
+
 #text{
 	font-family: 'Roboto', sans-serif;
-	font-size:180%;
-	margin-top:220px;
+	font-size:150%;
+	margin-top:60px;
 	margin-left:40px;
 }
 
