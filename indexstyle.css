@@ -126,11 +126,16 @@ body {
 	
 }
 
-iframe {
+#desktop {
 	margin-top:220px;
 	margin-left:280px;
     height:1500px;
     width:2000px;
+	display: inline;
+}
+
+#mobile {
+	display: none;
 }
 	
 	/*** Works on common browsers ***/
@@ -167,11 +172,16 @@ iframe {
 and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
-iframe {
+#mobile {
 	margin-top:220px;
 	margin-left:220px;
     height:1500px;
-    width:650px;
+    width:720px;
+	display: inline;
+}
+
+#desktop {
+	display: none;
 }
 
 #nav1 li a {
@@ -231,11 +241,16 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (-webkit-min-device-pixel-ratio: 1)
 {
-iframe {
+#mobile {
 	margin-top:220px;
 	margin-left:220px;
     height:1500px;
-    width:660px;
+    width:720px;
+	display: inline;
+}
+
+#desktop {
+	display: none;
 }
 
 #footer {
