@@ -69,7 +69,6 @@ body {
 	padding-right:35px;
 	-webkit-transition: background-color 0.1s; /* For Safari 3.1 to 6.0 */
     transition: background-color 0.1s;
-	background-color:#262626;
 }
 
 #nav1 li a:hover {
