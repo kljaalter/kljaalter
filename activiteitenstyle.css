@@ -67,10 +67,13 @@ body {
 	padding-bottom:4px;
 	padding-left:10px;
 	padding-right:35px;
+	-webkit-transition: background-color 0.1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.1s;
+	background-color:#262626;
 }
 
 #nav1 li a:hover {
-	background-color:#00cc44;
+	background-color:#E42A2A;
 }
 
 #nav1 ul #f {
@@ -138,30 +141,30 @@ body {
 
 /*** Works on common browsers ***/
 ::selection {
-    background-color: #e21818;
+    background-color: #E42A2A;
     color: #fff;
 }
 
 /*** Mozilla based browsers ***/
 ::-moz-selection {
-    background-color: #e21818;
+    background-color: #E42A2A;
     color: #fff;
 }
 
 /***For Other Browsers ***/
 ::-o-selection {
-    background-color: #e21818;
+    background-color: #E42A2A;
     color: #fff;
 }
 
 ::-ms-selection {
-    background-color: #e21818;
+    background-color: #E42A2A8;
     color: #fff;
 }
 
 /*** For Webkit ***/
 ::-webkit-selection {
-    background-color: #e21818;
+    background-color: #E42A2A;
     color: #fff;
 }
 
