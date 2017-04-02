@@ -176,7 +176,7 @@ and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
 #mobile {
-	margin-top:220px;
+	margin-top:160px;
 	margin-left:220px;
     height:1500px;
     width:710px;
