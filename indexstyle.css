@@ -1,5 +1,6 @@
 body {
   margin: 0px 0px 0px 0px;
+  overflow:hidden;
 
 }
 
@@ -133,7 +134,7 @@ body {
 	margin-top:150px;
 	margin-left:280px;
     height:1500px;
-    width:2000px;
+    width:1400px;
 	display: inline;
 }
 
@@ -178,8 +179,8 @@ and (max-device-width : 736px)
 #mobile {
 	margin-top:160px;
 	margin-left:220px;
-    height:1500px;
-    width:710px;
+    height:1600px;
+    width:750px;
 	display: inline;
 }
 
