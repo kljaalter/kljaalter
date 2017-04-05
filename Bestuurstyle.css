@@ -1,6 +1,7 @@
 
 body {
     margin: 0px 0px 0px 0px;
+	overflow-x:hidden
 }
 
 #site {
@@ -189,6 +190,49 @@ body {
     background-color: #E42A2A;
     color: #fff;
 }
+
+@media screen and (max-width: 1340px)
+and (min-width: 736px){
+	#desktop {
+	margin-top:150px;
+	margin-left:280px;
+    height:6000px;
+    width:800px;
+	display: inline;
+}
+
+#nav1 li a {
+    text-decoration: none;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:180%;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	padding-right:35px;
+}
+
+#nav1 ul{
+	list-style-type: none;
+	margin-left:40px;
+	margin-top:40px;
+    padding: 0;
+}
+
+#nav1 ul #f {
+	margin-top:10px;
+	width:27px;
+    height:27px;
+}
+
+#nav1 ul #insta {
+    width:27px;
+    height:27px;
+}
+
+
+}
+
 /* iphone 6 + */
 	@media only screen 
 and (min-device-width : 320px) 
@@ -203,6 +247,13 @@ and (max-device-width : 736px)
 	padding-bottom:4px;
 	padding-left:10px;
 	padding-right:35px;
+}
+
+#nav1 ul{
+	list-style-type: none;
+	margin-left:40px;
+	margin-top:120px;
+    padding: 0;
 }
 
 #nav1 ul #f {

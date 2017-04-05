@@ -1,5 +1,6 @@
 body {
     margin: 0px 0px 0px 0px;
+	overflow-x:hidden
 }
 
 #site {
@@ -121,7 +122,7 @@ body {
 #calendar {
 	margin-left:320px;
 	margin-top:220px;
-	width:950px;
+	width:800px;
 	height:500px;
     border: 0;
 	-ms-transform: scale(1.2);
@@ -165,6 +166,62 @@ body {
 ::-webkit-selection {
     background-color: #E42A2A;
     color: #fff;
+}
+
+@media screen and (max-width: 1340px)
+and (min-width: 736px){
+
+
+#nav1 ul{
+	list-style-type: none;
+	margin-left:40px;
+	margin-top:40px;
+    padding: 0;
+}
+
+
+#nav1 li a {
+    text-decoration: none;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:180%;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	padding-right:35px;
+}
+
+
+#nav1 ul #f {
+	margin-top:10px;
+	width:27px;
+    height:27px;
+}
+
+#nav1 ul #insta {
+    width:27px;
+    height:27px;
+}
+#calendar {
+	margin-left:320px;
+	margin-top:220px;
+	width:700px;
+	height:500px;
+    border: 0;
+	-ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+	
+}
+
 }
 
      /* iphone 6 + */
