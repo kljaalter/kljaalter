@@ -168,8 +168,45 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 1340px)
-and (min-width: 736px){
+@media screen and (max-width: 1370px) {
+	#header {
+	float:left;
+	width: 4000px;
+	height:140px;
+	background-color:#00cc44;
+	margin-top:-20px;
+	margin-left:-20px;
+	position: fixed;
+	z-index: 900;
+}
+
+#logo {
+	float:left;
+	height:100px;
+	width:100px;
+	margin-left:60px;
+	margin-top:30px;
+}
+
+#logoaalter {
+	float:left;
+	height:100px;
+	width:auto;
+	margin-left:15px;
+	margin-top:30px;
+}
+
+
+
+#nav1 {
+	margin-left:-20px;
+	position: fixed;
+	margin-top:120px;
+	float:left;
+	width:240px;
+	height:100%;
+	background-color:#262626;
+}
 
 
 #nav1 ul{
@@ -184,7 +221,7 @@ and (min-width: 736px){
     text-decoration: none;
 	color:#fff;
 	font-family: 'Roboto', sans-serif;
-	font-size:180%;
+	font-size:140%;
 	padding-top:4px;
 	padding-bottom:4px;
 	padding-left:10px;
@@ -193,14 +230,36 @@ and (min-width: 736px){
 
 
 #nav1 ul #f {
-	margin-top:10px;
-	width:27px;
-    height:27px;
+	width:22px;
+    height:22px;
+	margin-bottom:-2px;
 }
 
 #nav1 ul #insta {
-    width:27px;
-    height:27px;
+    width:22px;
+    height:22px;
+	margin-bottom:-2px;
+}
+#footer {
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	font-size:12px;
+	color:#707070;
+	margin-left:50px;
+}
+
+#privacy {
+	margin-top:10px;
+	font-family: 'Roboto', sans-serif;
+	font-size:12px;
+	color:#707070;
+	margin-left:50px;
+}
+
+#developlink {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
 }
 #calendar {
 	margin-left:320px;
@@ -229,6 +288,44 @@ and (min-width: 736px){
 and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
+	
+	#header {
+	float:left;
+	width: 4000px;
+	height:180px;
+	background-color:#00cc44;
+	margin-top:-20px;
+	margin-left:-20px;
+	position: fixed;
+	z-index: 900;
+}
+
+#logo {
+	float:left;
+	height:120px;
+	width:120px;
+	margin-left:60px;
+	margin-top:30px;
+}
+
+#logoaalter {
+	float:left;
+	height:120px;
+	width:auto;
+	margin-left:15px;
+	margin-top:40px;
+}
+
+#nav1 {
+	margin-left:-20px;
+	position: fixed;
+	margin-top:160px;
+	float:left;
+	width:280px;
+	height:100%;
+	background-color:#262626;
+}
+	
 	#calendar {
 	margin-left:260px;
 	margin-top:180px;
