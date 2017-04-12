@@ -357,6 +357,13 @@ and (max-device-width : 736px)
 	padding-right:35px;
 }
 
+#nav1 ul{
+	list-style-type: none;
+	margin-left:40px;
+	margin-top:120px;
+    padding: 0;
+}
+
 #nav1 ul #f {
 	margin-top:10px;
 	width:0px;
@@ -373,6 +380,7 @@ and (max-device-width : 736px)
 #nav1 li {
 	margin-top:30px;
 }
+
 
 #footer {
 	margin-top:350px;
@@ -446,6 +454,23 @@ and (-webkit-min-device-pixel-ratio: 1)
 	color:#707070;
 }
 
+#nav1 ul{
+	list-style-type: none;
+	margin-left:40px;
+	margin-top:120px;
+    padding: 0;
+}
+
+#nav1 li a {
+    text-decoration: none;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:27px;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-right:35px;
+}
 }
 
 
