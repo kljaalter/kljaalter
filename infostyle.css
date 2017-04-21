@@ -141,6 +141,13 @@ body {
 	margin-left:40px;
 }
 
+#map {
+	width:800px;
+	height:400px;
+	margin-left:40px;
+	z-index: -1;
+}
+
 #text{
 	font-family: 'Roboto', sans-serif;
 	font-size:150%;
