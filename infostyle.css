@@ -151,9 +151,18 @@ body {
 
 #text{
 	font-family: 'Roboto', sans-serif;
-	font-size:150%;
+	font-size:22px;
 	margin-top:60px;
 	margin-left:40px;
+}
+#maplinkmobile {
+display:none;
+}
+#maplink {
+	font-size:150%;
+	margin-top:20px;
+	margin-left:40px;
+	color:#e21818;
 }
 
 /*** Works on common browsers ***/
@@ -395,10 +404,21 @@ and (max-device-width : 736px)
 	color:#707070;
 }
 #map {
-	width:500px;
-	height:400px;
+	width:600px;
+	height:500px;
 	margin-left:40px;
 	z-index: 0;
+}
+#maplinkmobile {
+	font-size:25px;
+	margin-top:20px;
+	margin-left:40px;
+	color:#e21818;
+	display:block;
+}
+
+#maplink {
+display:none;
 }
 
 }
