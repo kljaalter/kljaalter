@@ -15,6 +15,7 @@ body {
 	margin-top:-240px;
 	margin-left:-20px;
 	position: fixed;
+	z-index:2;
 }
 
 #logo {
@@ -145,7 +146,7 @@ body {
 	width:800px;
 	height:400px;
 	margin-left:40px;
-	z-index: -1;
+	z-index: 0;
 }
 
 #text{
@@ -392,6 +393,12 @@ and (max-device-width : 736px)
 	font-family: 'Roboto', sans-serif;
 	font-size:110%;
 	color:#707070;
+}
+#map {
+	width:500px;
+	height:400px;
+	margin-left:40px;
+	z-index: 0;
 }
 
 }
