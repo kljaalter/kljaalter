@@ -191,7 +191,7 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1400px) {
 	#header {
 	float:left;
 	width: 4000px;
@@ -289,6 +289,22 @@ body {
 	margin-top:90px;
 	font-family: 'Roboto', sans-serif;
 	color:#707070;
+}
+
+#bestuur {
+	font-size:200%;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+}
+
+#list li p {
+	font-size:25px;
+}
+
+#list #foto {
+	margin-top:-15px;
+	width:150px;
+	height:auto;
 }
 
 }
@@ -416,6 +432,25 @@ and (max-device-width : 736px)
 	color:#707070;
 }
 
+#bestuur {
+	font-size:200%;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#list li p {
+    text-decoration: none;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size:180%;
+}
+
+#list #foto {
+	margin-top:-15px;
+	width:240px;
+	height:auto;
+}
 }
 
 /* ipad */
@@ -463,7 +498,25 @@ and (-webkit-min-device-pixel-ratio: 1)
 	padding-left:10px;
 	padding-right:35px;
 }
+#bestuur {
+	font-size:200%;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+}
 
+
+#list li p {
+    text-decoration: none;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+	font-size:180%;
+}
+
+#list #foto {
+	margin-top:-15px;
+	width:240px;
+	height:auto;
+}
 }
 
 

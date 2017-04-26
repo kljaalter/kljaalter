@@ -156,15 +156,6 @@ body {
 	margin-top:20px;
 	margin-left:40px;
 }
-#maplinkmobile {
-display:none;
-}
-#maplink {
-	font-size:150%;
-	margin-top:20px;
-	margin-left:40px;
-	color:#e21818;
-}
 
 /*** Works on common browsers ***/
 ::selection {
@@ -295,6 +286,10 @@ display:none;
 	color:#707070;
 }
 
+#text{
+	font-size:18px;
+}
+
 }
 
   /* iphone 6 + */
@@ -409,17 +404,6 @@ and (max-device-width : 736px)
 	height:500px;
 	margin-left:40px;
 	z-index: 0;
-}
-#maplinkmobile {
-	font-size:25px;
-	margin-top:20px;
-	margin-left:40px;
-	color:#e21818;
-	display:block;
-}
-
-#maplink {
-display:none;
 }
 
 }
