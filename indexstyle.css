@@ -178,6 +178,9 @@ body {
     zoom: 0.75; /* Other non-webkit browsers */
     zoom: 75%; /* Webkit browsers */
 }
+#desktop {
+    height:6000px;
+}
 }
 
 	
