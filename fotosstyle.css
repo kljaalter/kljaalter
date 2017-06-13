@@ -59,13 +59,18 @@ body {
 
 #nav1 ul{
 	list-style-type: none;
-	margin-left:40px;
 	margin-top:120px;
     padding: 0;
+	width:100%;
 }
 
 #nav1 li {
-	margin-top:20px;
+		margin-top:20px;
+	overflow:hidden;
+	border-width:5px;
+	border-style:solid;
+	border-color:#262626;
+	padding-left:40px;
 }
 
 #nav1 li a {
@@ -73,19 +78,18 @@ body {
 	color:#fff;
 	font-family: 'Roboto', sans-serif;
 	font-size:200%;
-	padding-top:4px;
-	padding-bottom:4px;
-	padding-left:10px;
-	padding-right:35px;
 	-webkit-transition: background-color 0.1s; /* For Safari 3.1 to 6.0 */
     transition: background-color 0.1s;
 }
 
-#nav1 li a:hover {
+#nav1 li:hover {
 	background-color:#E42A2A;
+	background:#E42A2A;
+	border-style:solid;
+	border-color:#E42A2A;
 }
+
 #nav1 ul #f {
-	margin-top:10px;
 	width:32px;
     height:32px;
 }
@@ -235,12 +239,7 @@ and (max-device-width : 736px)
 	color:#fff;
 	font-family: 'Roboto', sans-serif;
 	font-size:250%;
-	padding-top:4px;
-	padding-bottom:4px;
-	padding-left:10px;
-	padding-right:25px;
 }
-	
 	
 	iframe {
 		margin-top:220px;
@@ -262,24 +261,11 @@ and (max-device-width : 736px)
     transform-origin: 0 0;
 }
 
-		#nav1 li a {
-    text-decoration: none;
-	color:#fff;
-	font-family: 'Roboto', sans-serif;
-	font-size:250%;
-	padding-top:4px;
-	padding-bottom:4px;
-	padding-left:10px;
-	padding-right:35px;
-}
-
 #nav1 ul{
 	list-style-type: none;
-	margin-left:40px;
 	margin-top:120px;
     padding: 0;
 }
-
 
 #nav1 ul #f {
 	margin-top:10px;
@@ -292,10 +278,6 @@ and (max-device-width : 736px)
    width:0px;
    height:0px;
    margin-left:-5px;
-}
-
-#nav1 li {
-	margin-top:30px;
 }
 
 #footer {
@@ -356,94 +338,6 @@ and (max-device-width : 736px)
 }
 }
 
-/* ipad */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 1)
-{
-	iframe {
-		margin-top:220px;
-	    margin-left:280px;
-		height:1500px;
-        width:660px;
-		z-index: 900;
-}	
-
-	#footer {
-	margin-top:300px;
-	font-family: 'Roboto', sans-serif;
-	color:#828282;
-	font-size:130%;
-}
-
-#privacy {
-	margin-top:120px;
-	font-family: 'Roboto', sans-serif;
-	color:#707070;
-	font-size:130%;
-	margin-left:50px;
-}
-
-#developlink {
-	margin-top:90px;
-	font-family: 'Roboto', sans-serif;
-	font-size:100%;
-	color:#707070;
-}
-
-#foto {
-	font-size:200%;
-	display: inline-block;
-    margin-top:20px;
-	color:#e21818;
-}
-
-#fototitle {
-	margin-top:170px;
-	font-size:300%;
-	text-decoration: underline;
-}
-
-#jaar {
-	font-size:250%;
-	margin-top:50px;
-}
-
-#nav1 ul{
-	list-style-type: none;
-	margin-left:40px;
-	margin-top:120px;
-    padding: 0;
-}
-
-#nav1 li a {
-    text-decoration: none;
-	color:#fff;
-	font-family: 'Roboto', sans-serif;
-	font-size:27px;
-	padding-top:2px;
-	padding-bottom:2px;
-	padding-left:10px;
-	padding-right:35px;
-}
-#fototitle {
-	margin-top:220px;
-	font-size:200%;
-	text-decoration: underline;
-}
-
-#jaar {
-	font-size:200%;
-	margin-top:50px;
-}
-
-#foto {
-	font-size:150%;
-	margin-top:10px;
-	color:#e21818;
-}
-}
 
 
 /* Site developed by Wout Corijn */
