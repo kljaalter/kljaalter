@@ -1,0 +1,200 @@
+body {
+  margin: 0px 0px 0px 0px;
+  overflow-x:hidden
+}
+
+/* navigation */
+
+#header {
+	float:left;
+	width: 4000px;
+	height:180px;
+	background-color:#00cc44;
+	margin-left:-20px;
+	position: fixed;
+	z-index: 2;
+}
+
+#logo {
+	float:left;
+	height:120px;
+	width:120px;
+	margin-left:60px;
+	margin-top:30px;
+}
+
+#logoaalter {
+	float:left;
+	height:120px;
+	width:auto;
+	margin-left:15px;
+	margin-top:40px;
+}
+
+#titlelink {
+	text-decoration:none;
+}
+
+#nav1 {
+	margin-left:-20px;
+	position: fixed;
+	float:left;
+	width:280px;
+	height:100%;
+	background-color:#262626;
+	z-index:2;
+}
+
+#nav1 ul{
+	list-style-type: none;
+	margin-top:120px;
+    padding: 0;
+	width:100%;
+}
+
+#nav1 li {
+	margin-top:20px;
+	overflow:hidden;
+}
+
+#nav1 li a {
+	width:100%;
+	padding:5px 0px 5px 40px;
+	display:inline-block;
+    text-decoration: none;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:200%;
+	-webkit-transition: background-color 0.1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.1s;
+}
+
+#nav1 li a:hover {
+	background-color:#E42A2A;
+}
+
+#nav1 ul #f {
+	width:32px;
+    height:32px;
+}
+
+#nav1 ul #insta {
+	width:32px;
+	height:32px;
+}
+
+#footer {
+	margin-top:40px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+	margin-left:50px;
+}
+
+#privacy {
+	margin-top:120px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+	margin-left:50px;
+}
+
+#developlink {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+}
+
+#nav1 #social {
+	margin-top:40px;
+	margin-left:40px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	font-size:150%;
+}
+
+/* select color */
+
+/*** Works on common browsers ***/
+::selection {
+    background-color: #E42A2A;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #E42A2A;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #E42A2A;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #E42A2A8;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #E42A2A;
+    color: #fff;
+}
+
+/* smaller screens */
+@media screen and (max-width: 1370px) {
+		body {
+    zoom: 0.75; /* Other non-webkit browsers */
+    zoom: 75%; /* Webkit browsers */
+}
+}
+
+     /* mobile */
+	@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 736px)
+{
+	
+	body {
+    -moz-transform: scale(1, 1); /* Moz-browsers */
+    zoom: 1; /* Other non-webkit browsers */
+    zoom: 100%; /* Webkit browsers */
+}
+	#nav1 li a {
+	font-size:250%;
+}
+#nav1 ul #f {
+	margin-top:10px;
+	width:0px;
+    height:0px;
+	margin-left:-5px;
+}
+
+#nav1 ul #insta {
+   width:0px;
+   height:0px;
+   margin-left:-5px;
+}
+#footer {
+	margin-top:350px;
+	font-family: 'Roboto', sans-serif;
+	color:#828282;
+	font-size:130%;
+}
+
+#privacy {
+	margin-top:120px;
+	font-family: 'Roboto', sans-serif;
+	color:#707070;
+	font-size:130%;
+	margin-left:50px;
+}
+
+#developlink {
+	margin-top:90px;
+	font-family: 'Roboto', sans-serif;
+	font-size:110%;
+	color:#707070;
+}
+}

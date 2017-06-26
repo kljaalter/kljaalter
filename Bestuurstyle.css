@@ -1,133 +1,9 @@
-
-body {
-    margin: 0px 0px 0px 0px;
-	overflow-x:hidden
-}
-
-#site {
-	
+#nav1 {
+	margin-top:-60px;
 }
 
 #header {
-	float:left;
-	width: 4000px;
-	height:180px;
-	background-color:#00cc44;
 	margin-top:-240px;
-	margin-left:-20px;
-	position: fixed;
-}
-
-#logo {
-	float:left;
-	height:120px;
-	width:120px;
-	margin-left:60px;
-	margin-top:30px;
-}
-
-#logoaalter {
-	float:left;
-	height:120px;
-	width:auto;
-	margin-left:15px;
-	margin-top:40px;
-}
-#title {
-	float:left;
-    font-family: 'Roboto', sans-serif;
-	font-size:700%;
-	margin-left:20px;
-    margin-top:30px;
-	color:#fff;
-}
-
-#titlelink {
-	text-decoration:none;
-}
-
-#nav1 {
-	margin-left:-20px;
-	position: fixed;
-	margin-top:-60px;
-	float:left;
-	width:280px;
-	height:100%;
-	background-color:#262626;
-}
-
-#nav1 ul{
-	list-style-type: none;
-	margin-top:120px;
-    padding: 0;
-	width:100%;
-}
-
-#nav1 li {
-		margin-top:20px;
-	overflow:hidden;
-	border-width:5px;
-	border-style:solid;
-	border-color:#262626;
-	padding-left:40px;
-}
-
-#nav1 li a {
-    text-decoration: none;
-	color:#fff;
-	font-family: 'Roboto', sans-serif;
-	font-size:200%;
-	-webkit-transition: background-color 0.1s; /* For Safari 3.1 to 6.0 */
-    transition: background-color 0.1s;
-}
-
-#nav1 li:hover {
-	background-color:#E42A2A;
-	background:#E42A2A;
-	border-style:solid;
-	border-color:#E42A2A;
-}
-
-#nav1 ul #f {
-	width:32px;
-    height:32px;
-}
-
-#nav1 ul #insta {
-   width:32px;
-   height:32px;
-}
-
-#nav1 #social {
-	margin-top:40px;
-	margin-left:40px;
-	color:#fff;
-	font-family: 'Roboto', sans-serif;
-	font-size:150%;
-}
-
-#footer {
-	margin-top:40px;
-	font-family: 'Roboto', sans-serif;
-	color:#707070;
-	margin-left:50px;
-}
-
-#privacy {
-	margin-top:120px;
-	font-family: 'Roboto', sans-serif;
-	color:#707070;
-	margin-left:50px;
-}
-
-#developlink {
-	margin-top:90px;
-	font-family: 'Roboto', sans-serif;
-	color:#707070;
-}
-
-#main {
-	
 }
 
 #bestuur {
@@ -194,150 +70,19 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 1370px) {
-		body {
-    zoom: 0.75; /* Other non-webkit browsers */
-    zoom: 75%; /* Webkit browsers */
-}
-}
-
 /* iphone 6 + */
 	@media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
-	body {
-    -moz-transform: scale(1, 1); /* Moz-browsers */
-    zoom: 1; /* Other non-webkit browsers */
-    zoom: 100%; /* Webkit browsers */
-}
-
-	#header {
-	float:left;
-	width: 4000px;
-	height:180px;
-	background-color:#00cc44;
-	margin-top:-240px;
-	margin-left:-20px;
-	position: fixed;
-	z-index: 900;
-}
-
-#logo {
-	float:left;
-	height:120px;
-	width:120px;
-	margin-left:60px;
-	margin-top:30px;
-}
-
-#logoaalter {
-	float:left;
-	height:120px;
-	width:auto;
-	margin-left:15px;
-	margin-top:40px;
-}
-
-#nav1 {
-	margin-left:-20px;
-	position: fixed;
-	margin-top:-60px;
-	float:left;
-	width:280px;
-	height:100%;
-	background-color:#262626;
-}
-	
-	
-	#nav1 li a {
-    text-decoration: none;
-	color:#fff;
-	font-family: 'Roboto', sans-serif;
-	font-size:250%;
-}
-
-#nav1 ul{
-	list-style-type: none;
-	margin-top:120px;
-    padding: 0;
-}
-
-#nav1 ul #f {
-	margin-top:10px;
-	width:0px;
-    height:0px;
-	margin-left:-5px;
-}
-
-#nav1 ul #insta {
-	width:0px;
-	height:0px;
-	margin-left:-5px;
-}
-
-#footer {
-	margin-top:350px;
-	font-family: 'Roboto', sans-serif;
-	color:#828282;
-	font-size:130%;
-}
-
-#privacy {
-	margin-top:120px;
-	font-family: 'Roboto', sans-serif;
-	color:#707070;
-	font-size:130%;
-	margin-left:50px;
-}
-
-#developlink {
-	margin-top:90px;
-	font-family: 'Roboto', sans-serif;
-	font-size:110%;
-	color:#707070;
-}
-
-#footer {
-	margin-top:350px;
-	font-family: 'Roboto', sans-serif;
-	color:#828282;
-	font-size:130%;
-}
-
-#privacy {
-	margin-top:120px;
-	font-family: 'Roboto', sans-serif;
-	color:#707070;
-	font-size:130%;
-	margin-left:50px;
-}
-
-#developlink {
-	margin-top:90px;
-	font-family: 'Roboto', sans-serif;
-	font-size:110%;
-	color:#707070;
-}
-
-#bestuur {
-	font-size:200%;
-	text-decoration: underline;
-	font-family: 'Roboto', sans-serif;
-}
-
-
-#list li p {
-    text-decoration: none;
-	color:black;
-	font-family: 'Roboto', sans-serif;
-	font-size:180%;
-}
 
 #list #foto {
 	margin-top:-15px;
 	width:240px;
 	height:auto;
+}
+#bestuur {
+	font-size:50px;
 }
 }
 
