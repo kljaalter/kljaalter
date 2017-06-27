@@ -45,19 +45,19 @@ body {
 	z-index:2;
 }
 
-#nav1 ul{
+#nav1 #nav{
 	list-style-type: none;
 	margin-top:120px;
     padding: 0;
 	width:100%;
 }
 
-#nav1 li {
+#nav1 .nav {
 	margin-top:20px;
 	overflow:hidden;
 }
 
-#nav1 li a {
+#nav1 .nav .navlink {
 	width:240px;
 	padding:5px 0px 5px 40px;
 	display:inline-block;
@@ -69,18 +69,25 @@ body {
     transition: background-color 0.1s;
 }
 
-#nav1 li a:hover {
+#nav1 .nav .navlink:hover {
 	background-color:#E42A2A;
 }
 
-#nav1 ul #f {
-	width:32px;
-    height:32px;
+#social {	
+display:inline;
 }
 
-#nav1 ul #insta {
-	width:32px;
-	height:32px;
+.social {
+list-style-type: none;
+display:inline;
+padding-right:30px;
+}
+
+#social .fi {
+	width:40px;
+    height:40px;
+display:inline;
+padding-top:40px;
 }
 
 #footer {
@@ -179,7 +186,7 @@ and (max-device-width : 736px)
    margin-left:-5px;
 }
 #footer {
-	margin-top:350px;
+	margin-top:80px;
 	font-family: 'Roboto', sans-serif;
 	color:#828282;
 	font-size:130%;
@@ -198,5 +205,10 @@ and (max-device-width : 736px)
 	font-family: 'Roboto', sans-serif;
 	font-size:110%;
 	color:#707070;
+}
+#social .fi {
+	width:50px;
+    height:50px;
+padding-top:100px;
 }
 }
