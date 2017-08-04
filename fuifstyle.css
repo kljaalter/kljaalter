@@ -1,0 +1,62 @@
+#nav1 {
+	margin-top:160px;
+}
+
+#header {
+	margin-top:-20px;
+}
+
+body {
+	position: relative;
+}
+
+#main {
+
+}
+
+	/*** Works on common browsers ***/
+::selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #e21818;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1370px) {
+
+}
+
+	
+	/* iphone 6 + */
+	@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 736px)
+{
+
+}
+
+
+/* Site developed by Wout Corijn */
+
