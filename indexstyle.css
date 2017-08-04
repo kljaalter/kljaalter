@@ -35,9 +35,15 @@ body {
 	width:400px;
 	background-color:#00cc44;
 	background-image:url('images/fuif.jpg');
-	
 	position: relative;
+	transition:0.2s;
 }
+
+#fuif:hover {
+  -webkit-filter: grayscale(1); /* Old WebKit */
+  filter: grayscale(1);
+}
+
 
 .fstext {
   	color:#fff;
