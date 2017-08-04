@@ -108,7 +108,10 @@ and (max-device-width : 736px)
 	margin-top:20px;
 }
 .fstext {
-	font-size:31px;
+	font-size:50px;
+	width:400px;
+	text-align:center;
+	padding-bottom:60px;
 }
 }
 
