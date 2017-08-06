@@ -15,14 +15,17 @@ body {
 
 }
 
-#sfl {
-	  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height:500px;
-  width:auto;
-  padding-top:80px;
+iframe {
+	padding-top:100px;
+	height:1200px;
+	width:1000px;
+}
+
+#map {
+	width:800px;
+	height:600px;
+	margin-left:100px;
+	z-index: 0;
 }
 
 	/*** Works on common browsers ***/
@@ -56,7 +59,11 @@ body {
 
 
 @media screen and (max-width: 1370px) {
-
+iframe {
+	padding-top:100px;
+	height:1700px;
+	width:1000px;
+}
 }
 
 	
@@ -65,8 +72,16 @@ body {
 and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
-#sfl {
-  height:800px;
+iframe {
+	padding-top:100px;
+	height:1900px;
+	width:1000px;
+}
+#map {
+	margin-left:0px;
+	margin:0px auto;
+	width:900px;
+	height:600px;
 }
 }
 
