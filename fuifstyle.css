@@ -17,9 +17,10 @@ body {
 
 #desktopi {
 	padding-top:100px;
-	height:1400px;
+	height:1600px;
 	width:1000px;
     z-index:2;
+	margin-left:280px;
 }
 
 #mobilei {
@@ -30,7 +31,7 @@ body {
 	margin-top:-150px;
 	width:800px;
 	height:600px;
-	margin-left:100px;
+	margin-left:380px;
 	z-index: 0;
 }
 
@@ -73,7 +74,7 @@ body {
 }
 #map {
 margin-top:-200px;
-margin-left:135px;
+margin-left:415px;
 }
 }
 
@@ -87,19 +88,22 @@ and (max-device-width : 736px)
 	display:block;
 	padding-top:100px;
 	height:2400px;
-	width:1000px;
+	width:750px;
 	z-index:2;
+	margin-top:160px;
+	margin-left:200px;
+	display: inline;
 }
 
 #desktopi {
 	display:none;
 }
 #map {
-	margin-left:20px;
-	margin:0px auto;
-	width:900px;
-	height:600px;
-	margin-top:-200px;
+	position:absolute;
+	margin-left:300px;
+	margin-top:-550px;
+	width:600px;
+	height:500px;
 }
 }
 
