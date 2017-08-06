@@ -85,7 +85,7 @@ and (max-device-width : 736px)
 #mobilei {
 	display:block;
 	padding-top:100px;
-	height:1900px;
+	height:2400px;
 	width:1000px;
 	z-index:2;
 }
@@ -94,10 +94,11 @@ and (max-device-width : 736px)
 	display:none;
 }
 #map {
-	margin-left:0px;
+	margin-left:20px;
 	margin:0px auto;
 	width:900px;
 	height:600px;
+	margin-top:-250px;
 }
 }
 
