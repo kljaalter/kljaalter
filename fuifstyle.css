@@ -15,13 +15,19 @@ body {
 
 }
 
-iframe {
+#desktopi {
 	padding-top:100px;
 	height:1200px;
 	width:1000px;
+    z-index:2;
+}
+
+#mobilei {
+	display:none;
 }
 
 #map {
+	margin-top:-200px;
 	width:800px;
 	height:600px;
 	margin-left:100px;
@@ -59,10 +65,14 @@ iframe {
 
 
 @media screen and (max-width: 1370px) {
-iframe {
+#desktopi {
 	padding-top:100px;
-	height:1700px;
+	height:1500px;
 	width:1000px;
+	z-index:2;
+}
+#map {
+margin-top:-200px;
 }
 }
 
@@ -72,10 +82,16 @@ iframe {
 and (min-device-width : 320px) 
 and (max-device-width : 736px)
 {
-iframe {
+#mobilei {
+	display:block;
 	padding-top:100px;
 	height:1900px;
 	width:1000px;
+	z-index:2;
+}
+
+#desktopi {
+	display:none;
 }
 #map {
 	margin-left:0px;
