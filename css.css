@@ -151,6 +151,8 @@ display:inline-block;
 /* smaller screens */
 @media screen and (max-width: 1370px) {
 		body {
+	-moz-transform-origin: left top; 
+	 -moz-transform: scale(0.75,0.75); 
     zoom: 0.75; /* Other non-webkit browsers */
     zoom: 75%; /* Webkit browsers */
 }
