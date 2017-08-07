@@ -10,7 +10,7 @@
 #desktop {
 	margin-top:150px;
 	margin-left:280px;
-    height:5000px;
+    height:9000px;
     width:1400px;
 	display: inline;
 }
@@ -52,7 +52,7 @@
 @media screen and (max-width: 1370px) {
 #desktop {
     height:12000px;
-	width:1000px;
+	width:2000px;
 }
 }
 
