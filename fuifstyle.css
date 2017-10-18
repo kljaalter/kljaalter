@@ -15,6 +15,13 @@ body {
 
 }
 
+video {
+	margin-top:150px;
+	margin-left:320px;
+	width:640;
+	height:440;
+}
+
 #desktopi {
 	padding-top:100px;
 	height:1600px;
