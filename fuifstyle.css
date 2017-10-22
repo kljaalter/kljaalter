@@ -112,6 +112,17 @@ and (max-device-width : 736px)
 	width:600px;
 	height:500px;
 }
+video {
+		margin-top:280px;
+	margin-left:440px;
+	width:330;
+	height:220;
+  -moz-transform:scale(2);
+  -webkit-transform:scale(2);
+  -o-transform:scale(2);
+  -ms-transform:scale(2);
+  transform:scale(2);
+}
 }
 
 
