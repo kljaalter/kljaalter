@@ -9,8 +9,8 @@
 
 #desktop {
 	margin-top:150px;
-	margin-left:280px;
-    height:10000px;
+	margin-left:220px;
+    height:15000px;
     width:1400px;
 	display: inline;
 }
@@ -18,7 +18,7 @@
 #mobile {
 	display: none;
 }
-	
+
 	/*** Works on common browsers ***/
 ::selection {
     background-color: #e21818;
@@ -56,10 +56,10 @@
 }
 }
 
-	
+
 	/* iphone 6 + */
-	@media only screen 
-and (min-device-width : 320px) 
+	@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
 
@@ -79,4 +79,3 @@ and (max-device-width : 736px)
 
 
 /* Site developed by Wout Corijn */
-

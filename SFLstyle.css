@@ -12,16 +12,14 @@ body {
 	margin-top:100px;
 }
 
-br {
-	display: none;
-}
-
 #bgi {
 	z-index:-5;
-	height:auto;
-	width:100%;
-  position: fixed;
-  margin: 0 auto;
+	width:auto;
+	height:100%;
+	  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #main {
@@ -52,6 +50,8 @@ li {
 	color:#fff;
 	font-family: 'Roboto', sans-serif;
 	font-size:20px;
+	padding:20px;
+	background-color:#E42A2A;
 	transition:0.2s;
 	font-weight:900;
 }
@@ -63,20 +63,11 @@ li:hover {
 }
 
 #home {
-	padding:20px 55px;
-		background-color:#E42A2A;
+		padding:0px 30px;
 }
 
-#sfl1 {
-	padding:20px 32px;
-background-color: #155CAA;
+#sfl {
 }
-
-#sfl2 {
-	padding:20px 10px;
-background-color:#E42A2A;
-}
-
 
 	/*** Works on common browsers ***/
 ::selection {
@@ -118,16 +109,6 @@ background-color:#E42A2A;
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-	br {
-		display: block;
-	}
-
-	ul {
-	display:block;
-	text-align: center;
-
-	}
-
 	li {
 
 	font-size:45px;
@@ -136,30 +117,14 @@ and (max-device-width : 736px)
 #main {
 	 width:900px;
 }
-
+li {
+	padding:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
 
 #home {
-	padding:40px 125px;
-		background-color:#E42A2A;
-}
-
-#sfl1 {
-	padding:40px 60px;
-background-color: #155CAA;
-}
-
-#sfl2 {
-	padding:40px 15px;
-background-color:#E42A2A;
-}
-
-#bgi {
-	width:auto;
-	height:100%;
-	position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+		padding:0px 80px;
 }
 }
 
