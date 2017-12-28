@@ -117,6 +117,16 @@ display:inline-block;
 	font-size:150%;
 }
 
+#name {
+	position: absolute;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	bottom: 0;
+   margin-left: 10px;
+	font-size: 15px;
+	color: #bfbfbf;
+}
+
 /* select color */
 
 /*** Works on common browsers ***/
@@ -155,6 +165,9 @@ display:inline-block;
 	 -moz-transform: scale(0.75,0.75);
     zoom: 0.75; /* Other non-webkit browsers */
     zoom: 75%; /* Webkit browsers */
+}
+#name {
+	font-size: 17px;
 }
 }
 
@@ -219,5 +232,7 @@ padding-right:40px;
 	width:65px;
     height:65px;
 }
-
+#name {
+	font-size: 23px;
+ }
 }

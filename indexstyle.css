@@ -82,7 +82,6 @@ background-color:#E42A2A;
 background-color:#E42A2A;
 }
 
-
 	/*** Works on common browsers ***/
 ::selection {
     background-color: #e21818;
@@ -144,18 +143,19 @@ and (max-device-width : 736px)
 
 
 #home {
-	padding:40px 125px;
-		background-color:#E42A2A;
+	padding:40px 100px;
 }
 
 #sfl1 {
-	padding:40px 60px;
-background-color: #155CAA;
+	padding:40px 80px;
 }
 
 #sfl2 {
-	padding:40px 60px;
-background-color:#E42A2A;
+	padding:40px 40px;
+}
+
+#sfl3 {
+	padding:40px 40px;
 }
 
 #bgi {
