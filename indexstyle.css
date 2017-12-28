@@ -48,7 +48,7 @@ display:inline;
 
 li {
 	display:inline-block;
-	margin:40px;
+	margin:20px;
 	color:#fff;
 	font-family: 'Roboto', sans-serif;
 	font-size:20px;
@@ -63,16 +63,21 @@ li:hover {
 }
 
 #home {
-	padding:20px 55px;
+	padding:20px 30px;
 		background-color:#E42A2A;
 }
 
 #sfl1 {
-	padding:20px 32px;
-background-color: #155CAA;
+	padding:20px 20px;
+background-color: #E42A2A;
 }
 
 #sfl2 {
+	padding:20px 10px;
+background-color:#E42A2A;
+}
+
+#sfl3 {
 	padding:20px 10px;
 background-color:#E42A2A;
 }
@@ -129,7 +134,7 @@ and (max-device-width : 736px)
 	}
 
 	li {
-
+  margin: 40px;
 	font-size:45px;
 
 }
@@ -149,7 +154,7 @@ background-color: #155CAA;
 }
 
 #sfl2 {
-	padding:40px 15px;
+	padding:40px 60px;
 background-color:#E42A2A;
 }
 

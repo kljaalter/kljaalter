@@ -72,7 +72,7 @@ body {
 	background-color:#E42A2A;
 }
 
-#social {	
+#social {
 display:inline-block;
 padding-left:0px;
 }
@@ -151,19 +151,19 @@ display:inline-block;
 /* smaller screens */
 @media screen and (max-width: 1370px) {
 		body {
-	-moz-transform-origin: left top; 
-	 -moz-transform: scale(0.75,0.75); 
+	-moz-transform-origin: left top;
+	 -moz-transform: scale(0.75,0.75);
     zoom: 0.75; /* Other non-webkit browsers */
     zoom: 75%; /* Webkit browsers */
 }
 }
 
      /* mobile */
-	@media only screen 
-and (min-device-width : 320px) 
+	@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-	
+
 	body {
     -moz-transform: scale(1, 1); /* Moz-browsers */
     zoom: 1; /* Other non-webkit browsers */
@@ -207,7 +207,7 @@ and (max-device-width : 736px)
 	font-size:110%;
 	color:#707070;
 }
-#social {	
+#social {
 padding-top:20px;
 }
 
