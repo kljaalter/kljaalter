@@ -31,8 +31,8 @@ video {
 }
 
 #desktopi {
-	padding-top:100px;
-	height:1600px;
+	padding-top:200px;
+	height:2000px;
 	width:1000px;
     z-index:2;
 	margin-left:220px;
@@ -82,9 +82,8 @@ video {
 
 @media screen and (max-width: 1370px) {
 #desktopi {
-	padding-top:100px;
-	height:2000px;
-	width:1000px;
+	height:2200px;
+	width:1200px;
 	z-index:2;
 }
 #map {

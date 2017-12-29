@@ -127,6 +127,17 @@ display:inline-block;
 	color: #bfbfbf;
 }
 
+#fblink {
+margin-left:320px;
+border: 4px #3B5998 solid;
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+color: #3B5998;
+font-size: 32px;
+position: absolute;
+margin-top: 220px;
+}
+
 /* select color */
 
 /*** Works on common browsers ***/
@@ -169,7 +180,7 @@ display:inline-block;
 #name {
 	font-size: 17px;
 }
-}
+
 
      /* mobile */
 	@media only screen

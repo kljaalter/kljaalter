@@ -8,7 +8,7 @@
 }
 
 #bestuur {
-	font-size:200%;
+	font-size:32px;
 	text-decoration: underline;
 	font-family: 'Roboto', sans-serif;
 }
@@ -72,8 +72,8 @@
 }
 
 /* iphone 6 + */
-	@media only screen 
-and (min-device-width : 320px) 
+	@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
 
@@ -88,15 +88,3 @@ and (max-device-width : 736px)
 }
 
 /* Site developed by Wout Corijn */
-
-
-
-
-
-
-
-
-
-
-
-
