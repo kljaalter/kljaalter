@@ -46,13 +46,13 @@ body {
 
 #nav1 #nav{
 	list-style-type: none;
-	margin-top:80px;
+	margin-top:50px;
     padding: 0;
 	width:100%;
 }
 
 #nav1 .nav {
-	margin-top:20px;
+	margin-top:15px;
 	overflow:hidden;
 }
 
