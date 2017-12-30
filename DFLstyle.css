@@ -84,7 +84,6 @@ video {
 
 @media screen and (max-width: 1370px) {
 #desktopi {
-	padding-top:200px;
 	height:2200px;
 	width:1200px;
 	z-index:2;
@@ -104,7 +103,7 @@ and (max-device-width : 736px)
 #mobilei {
 	display:block;
 	padding-top:100px;
-	height:2600px;
+	height:2500px;
 	width:850px;
 	z-index:2;
 	margin-top:160px;
@@ -123,7 +122,7 @@ and (max-device-width : 736px)
 	height:500px;
 }
 video {
-		margin-top:280px;
+		margin-top:80px;
 	margin-left:440px;
 	width:330;
 	height:250;
@@ -132,6 +131,12 @@ video {
   -o-transform:scale(2);
   -ms-transform:scale(2);
   transform:scale(2);
+}
+#title {
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	margin-left:300px;
+	margin-top:0px;
 }
 }
 

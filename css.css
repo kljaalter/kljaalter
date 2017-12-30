@@ -246,4 +246,14 @@ padding-right:40px;
 #name {
 	font-size: 23px;
  }
+ #fblink {
+ margin-left:300px;
+ border: 5px #3B5998 solid;
+ padding: 5px;
+ font-family: 'Roboto', sans-serif;
+ color: #3B5998;
+ font-size: 40px;
+ position: absolute;
+ margin-top: 220px;
+ }
 }
