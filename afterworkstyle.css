@@ -1,5 +1,5 @@
 body {
-	  font-family: arial;
+font-family: arial;
 	position: relative;
 }
 
@@ -9,7 +9,7 @@ body {
 
 #header {
 	margin-top:-20px;
-	background-color:#00cc44;
+	background-color:#017e43;
 }
 
 #main {
