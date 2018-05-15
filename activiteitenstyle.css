@@ -1,3 +1,7 @@
+body {
+	  font-family: arial;
+}
+
 #nav1 {
 	margin-top:160px;
 }
@@ -18,21 +22,21 @@
     -o-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    
+
     -ms-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -o-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
-	
+
 }
 
      /* iphone 6 + */
-	@media only screen 
-and (min-device-width : 320px) 
+	@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-	
+
 	#calendar {
 	margin-left:260px;
 	margin-top:180px;
@@ -44,30 +48,16 @@ and (max-device-width : 736px)
     -o-transform: scale(3);
     -webkit-transform: scale(3);
     transform: scale(3);
-    
+
     -ms-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -o-transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
-	
+
 }
 }
 
 
 
 /* Site developed by Wout Corijn */
-
-
-
-
-
-
-
-
-
-
-
-
-
-

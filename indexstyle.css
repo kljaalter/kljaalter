@@ -1,3 +1,9 @@
+body {
+	  font-family: arial;
+	position: relative;
+	margin-top:100px;
+}
+
 #nav1 {
 	margin-top:160px;
 }
@@ -5,11 +11,6 @@
 #header {
 	margin-top:-20px;
 	background-color:transparent;
-}
-
-body {
-	position: relative;
-	margin-top:100px;
 }
 
 br {
@@ -50,7 +51,6 @@ li {
 	display:inline-block;
 	margin:20px;
 	color:#fff;
-	font-family: 'Roboto', sans-serif;
 	font-size:20px;
 	transition:0.2s;
 	font-weight:900;

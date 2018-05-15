@@ -1,3 +1,9 @@
+body {
+	  font-family: arial;
+	position: relative;
+	margin-top:100px;
+}
+
 #nav1 {
 	margin-top:160px;
 }
@@ -5,11 +11,6 @@
 #header {
 	margin-top:-20px;
 	background-color:transparent;
-}
-
-body {
-	position: relative;
-	margin-top:100px;
 }
 
 #bgi {
@@ -48,7 +49,6 @@ li {
 	display:inline-block;
 	margin:40px;
 	color:#fff;
-	font-family: 'Roboto', sans-serif;
 	font-size:20px;
 	padding:20px;
 	background-color:#E42A2A;

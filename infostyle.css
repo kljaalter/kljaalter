@@ -1,3 +1,7 @@
+body {
+	  font-family: arial;
+}
+
 #nav1 {
 	margin-top:-60px;
 }
@@ -15,7 +19,6 @@
 }
 
 #info {
-	font-family: 'Roboto', sans-serif;
 	font-size:200%;
 	text-decoration: underline;
 	margin-left:40px;
@@ -29,7 +32,6 @@
 }
 
 #text{
-	font-family: 'Roboto', sans-serif;
 	font-size:22px;
 	margin-top:20px;
 	margin-left:40px;
@@ -65,14 +67,14 @@
 }
 
   /* iphone 6 + */
-	@media only screen 
-and (min-device-width : 320px) 
+	@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
 #info {
 	font-size:50px;
-}	
-	
+}
+
 #main {
     width:550px;
 }
@@ -88,12 +90,3 @@ and (max-device-width : 736px)
 
 
 /* Site developed by Wout Corijn */
-
-
-
-
-
-
-
-
-

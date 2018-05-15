@@ -1,3 +1,7 @@
+body {
+	  font-family: arial;
+}
+
 #nav1 {
 	margin-top:-60px;
 }
@@ -10,7 +14,6 @@
 #bestuur {
 	font-size:32px;
 	text-decoration: underline;
-	font-family: 'Roboto', sans-serif;
 }
 
 #list {
@@ -32,7 +35,6 @@
 #list li p {
     text-decoration: none;
 	color:black;
-	font-family: 'Roboto', sans-serif;
 	font-size:180%;
 }
 
