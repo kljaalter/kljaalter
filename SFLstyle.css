@@ -1,7 +1,6 @@
 body {
 	  font-family: arial;
 	position: relative;
-	margin-top:100px;
 }
 
 #nav1 {
@@ -10,65 +9,48 @@ body {
 
 #header {
 	margin-top:-20px;
-	background-color:transparent;
-}
-
-#bgi {
-	z-index:-5;
-	width:auto;
-	height:100%;
-	  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	background-color:#017e43;
 }
 
 #main {
-	   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
-a {
-	 text-decoration:none;
-	 color:#fff;
-	 display:inline-block;
+
+
+#title {
+	font-size: 30px;
+	margin-left:320px;
+	margin-top:20px;
 }
 
-a:hover {
-	cursor: hand;
+video {
+	margin-top:0px;
+	margin-bottom: 50px;
+	margin-left:320px;
+	width:640;
+	height:440;
 }
 
-ul {
-list-style:none;
-display:inline;
+#desktopi {
+	padding-top:200px;
+	height:2000px;
+	width:1000px;
+    z-index:2;
+	margin-left:220px;
 }
 
-li {
-	display:inline-block;
-	margin:40px;
-	color:#fff;
-	font-size:20px;
-	padding:20px;
-	background-color:#E42A2A;
-	transition:0.2s;
-	font-weight:600;
+#mobilei {
+	display:none;
 }
 
-li:hover {
-	background: transparent;
-	color:#E42A2A;
-	cursor: hand;
+#map {
+	margin-top:-150px;
+	width:800px;
+	height:600px;
+	margin-left:380px;
+	z-index: 0;
 }
-
-#home {
-		padding:0px 30px;
-}
-
-#sfl {
-}
-
 
 	/*** Works on common browsers ***/
 ::selection {
@@ -101,7 +83,15 @@ li:hover {
 
 
 @media screen and (max-width: 1370px) {
-
+#desktopi {
+	height:2200px;
+	width:1200px;
+	z-index:2;
+}
+#map {
+margin-top:-200px;
+margin-left:415px;
+}
 }
 
 
@@ -110,22 +100,42 @@ li:hover {
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-	li {
-
-	font-size:45px;
-
-}
-#main {
-	 width:900px;
-}
-li {
-	padding:20px;
-	padding-top:30px;
-	padding-bottom:30px;
+#mobilei {
+	display:block;
+	padding-top:100px;
+	height:2500px;
+	width:850px;
+	z-index:2;
+	margin-top:160px;
+	margin-left:200px;
+	display: inline;
 }
 
-#home {
-		padding:0px 80px;
+#desktopi {
+	display:none;
+}
+#map {
+	position:absolute;
+	margin-left:300px;
+	margin-top:-550px;
+	width:600px;
+	height:500px;
+}
+video {
+		margin-top:80px;
+	margin-left:440px;
+	width:330;
+	height:250;
+  -moz-transform:scale(2);
+  -webkit-transform:scale(2);
+  -o-transform:scale(2);
+  -ms-transform:scale(2);
+  transform:scale(2);
+}
+#title {
+	font-size: 40px;
+	margin-left:300px;
+	margin-top:0px;
 }
 }
 
