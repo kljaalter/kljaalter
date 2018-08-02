@@ -19,8 +19,9 @@ br {
 
 #bgi {
 	z-index:-5;
-	width:auto;
-	height:100%;
+	width:100%;
+	height:auto;
+	margin-top: 60px;
 	  position: fixed;
   top: 50%;
   left: 50%;
@@ -167,6 +168,8 @@ and (max-device-width : 736px)
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+margin-top: 0px;
+margin-left:50px;
 }
 }
 
