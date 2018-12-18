@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteRule ^/?$index.html
 RewriteRule ^home/?$home.html
 RewriteRule ^bestuur/?$Bestuur.html
 RewriteRule ^foto's/?$fotos.html
