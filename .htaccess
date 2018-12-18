@@ -1,1 +1,7 @@
+RewriteEngine On
+RewriteRule ^home/?$ home.html
+RewriteRule ^bestuur/?$ Bestuur.html
+RewriteRule ^foto's/?$ fotos.html
+RewriteRule ^activiteiten/?$ activiteiten.html
+RewriteRule ^info/?$ info.html
 ErrorDocument 404 /404.html
