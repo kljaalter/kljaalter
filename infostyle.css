@@ -1,87 +1,72 @@
 body {
-	  font-family: arial;
+font-family: arial;
 }
-
 #header {
-	background-color:#017e43;
+background-color:#017e43;
 }
-
 #main {
-    margin-top:220px;
-	margin-left:280px;
-    height:1500px;
-    width:850px;
+margin-top:220px;
+margin-left:280px;
+height:1500px;
+width:850px;
 }
-
 #info {
-	font-size:200%;
-	text-decoration: underline;
-	margin-left:40px;
+font-size:200%;
+text-decoration: underline;
+margin-left:40px;
 }
-
 #map {
-	width:800px;
-	height:400px;
-	margin-left:40px;
-	z-index: 0;
+width:800px;
+height:400px;
+margin-left:40px;
+z-index: 0;
 }
-
 #text{
-	font-size:22px;
-	margin-top:20px;
-	margin-left:40px;
+font-size:22px;
+margin-top:20px;
+margin-left:40px;
 }
-
 /*** Works on common browsers ***/
 ::selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 /*** Mozilla based browsers ***/
 ::-moz-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 /***For Other Browsers ***/
 ::-o-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 ::-ms-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 /*** For Webkit ***/
 ::-webkit-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
-  /* iphone 6 + */
-	@media only screen
+/* iphone 6 + */
+@media only screen
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
 #info {
-	font-size:50px;
+font-size:50px;
 }
-
 #main {
-    width:550px;
+width:550px;
 }
-
 #map {
-	width:600px;
-	height:500px;
+width:600px;
+height:500px;
 }
 #text{
-	font-size:27px;
+font-size:27px;
 }
 }
-
-
 /* Site developed by Wout Corijn */

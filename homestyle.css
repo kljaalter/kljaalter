@@ -1,80 +1,63 @@
 body {
-	  font-family: arial;
+font-family: arial;
 }
-
 #header {
-	background-color:#017e43;
+background-color:#017e43;
 }
-
 #desktop {
-	margin-top:50px;
-	margin-left:220px;
-    height:20000px;
-    width:1400px;
-	display: inline;
+margin-top:50px;
+margin-left:220px;
+height:20000px;
+width:1400px;
+display: inline;
 }
-
 #mobile {
-	display: none;
+display: none;
 }
-
-	/*** Works on common browsers ***/
+/*** Works on common browsers ***/
 ::selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 /*** Mozilla based browsers ***/
 ::-moz-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 /***For Other Browsers ***/
 ::-o-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 ::-ms-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
 /*** For Webkit ***/
 ::-webkit-selection {
-    background-color: #e21818;
-    color: #fff;
+background-color: #e21818;
+color: #fff;
 }
-
-
 @media screen and (max-width: 1370px) {
 #desktop {
-    height:14000px;
-	width:2400px;
+height:14000px;
+width:2400px;
 }
 }
-
-
-	/* iphone 6 + */
-	@media only screen
+/* iphone 6 + */
+@media only screen
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-
 #mobile {
-	margin-top:160px;
-	margin-left:220px;
-    height:30000px;
-    width:750px;
-	display: inline;
+margin-top:160px;
+margin-left:220px;
+height:30000px;
+width:750px;
+display: inline;
 }
-
 #desktop {
-	display: none;
+display: none;
 }
-
 }
-
-
 /* Site developed by Wout Corijn */
