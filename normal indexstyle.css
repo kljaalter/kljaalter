@@ -1,32 +1,24 @@
 body {
-	  font-family: arial;
+	font-family: arial;
 	position: relative;
-	margin-top:100px;
-}
-
-#nav1 {
-	margin-top:160px;
+	background: url(images/DFLbg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #header {
-	margin-top:-20px;
 	background-color:transparent;
+	position:absolute;
 }
 
 br {
 	display: none;
 }
 
-#bgi {
-	z-index:-5;
-	height:auto;
-	width:100%;
-  position: fixed;
-  margin: 0 auto;
-}
-
 #main {
-	   position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

@@ -1,34 +1,25 @@
 body {
-	  font-family: arial;
+	font-family: arial;
 	position: relative;
-	margin-top:100px;
-}
-
-#nav1 {
-	margin-top:160px;
+	background: url(images/DFLbg.jpg) no-repeat center center fixed; 
+	/* background: url(images/SFLbg.jpg) no-repeat center center fixed;  */
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #header {
-	margin-top:-20px;
 	background-color:transparent;
+	position:absolute;
 }
 
 br {
 	display: none;
 }
 
-#bgi {
-	z-index:-5;
-	height:100%;
-	width:auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 #main {
-	   position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -46,12 +37,12 @@ a:hover {
 
 ul {
 list-style:none;
-display:inline;
+display:block;
 }
 
 li {
 	display:inline-block;
-	margin:20px;
+	margin:15px;
 	color:#fff;
 	font-size:20px;
 	transition:0.2s;
@@ -66,7 +57,7 @@ li:hover {
 
 #home {
 	padding:20px 30px;
-		background-color:#E42A2A;
+	background-color:#E42A2A;
 }
 
 #sfl1 {
@@ -158,15 +149,6 @@ and (max-device-width : 736px)
 
 #sfl3 {
 	padding:40px 40px;
-}
-
-#bgi {
-	width:auto;
-	height:100%;
-	position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 }
 }
 
