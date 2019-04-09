@@ -1,8 +1,5 @@
-RewriteEngine On
-RewriteRule ^/?$index.html
-RewriteRule ^home/?$home.html
-RewriteRule ^bestuur/?$Bestuur.html
-RewriteRule ^foto's/?$fotos.html
-RewriteRule ^activiteiten/?$activiteiten.html
-RewriteRule ^info/?$info.html
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
 ErrorDocument 404 /404.html
