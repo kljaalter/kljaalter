@@ -5,7 +5,7 @@
     <title>Klj Aalter
     </title>
     <meta name="viewport" content="user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="Bestuurstyle.css">
+    <link rel="stylesheet" type="text/css" href="infostyle.css">
     <link rel="stylesheet" type="text/css" href="css.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
@@ -34,7 +34,7 @@
           <img id="logoaalter" src="images/aalterlogo.png" >
         </a>
       </div>
-            <div id="nav1">
+      <div id="nav1">
         <ul id="nav">
           <li class="nav">
             <a class="navlink" href="http://www.kljaalter.be/home">Home</a></li>
@@ -46,7 +46,7 @@
             <a class="navlink" href="http://www.kljaalter.be/activiteiten">Activiteiten</a></li>
           <li class="nav">
             <a class="navlink" href="http://www.kljaalter.be/info">Info </a></li>
-						<li class="nav">
+			<li class="nav">
 			<a class="navlink" href="http://www.kljaalter.be/contact">Contact </a></li>
         </ul>
         <ul id="social">
@@ -63,55 +63,48 @@
         </ul>
       </div>
       <div id="main">
-        <div id="list">
-          <ul>
-            <p id="bestuur">Bestuur</p>
-            <li>
-              <p>Stef Corijn
-                <br> Hoofdleider
-              </p>
-            </li>
-            <img id="foto" src="images/stef.jpg">
-            </img>
-          <li>
-            <p>	Emile Surdiacourt
-              <br>
-            </p>
-          </li>
-          <img id="foto" src="images/Emile1.jpg">
-          </img>
-        <li>
-          <p>	Jonas Tanghe
-            <br> Kassier</p>
-        </li>
-        <img id="foto" src="images/jonas.jpg">
-        </img>								
-      <li>
-        <p>	Michaël Demeyer</p>
-      </li>
-      <img id="foto" src="images/Michaël.jpg">
-      </img>
-    <li>
-      <p> Bram & Sander</p>
-    </li>
-    <img id="foto" src="images/BramSander.jpg">
-	 <li>
-    </img>
-	 <p>Emily Almey</p>
-    </li>
-    <img id="foto" src="images/Emily.jpg">
-    </img>
-	<p id="bestuur">Freelancers</p>
-	 <li>
-	 <p >Mike Colpaert</p>
-    </li>
-    <img id="foto" src="images/Mike.jpg">
-    </img>
-	<br><br><br>
-  </ul>
-</div>
-</div>
-</div>
-</body>
+        <p id="info">Contact
+        </p>
+        <p id="text">E-mail: info@kljaalter.be
+          <br>
+          <br>
+          Stef Corijn: hoofdleider
+          <br>0471 36 76 61 
+        </p>
+        <br>
+        <br>
+        <p id="info">Locatie
+        </p>
+        <p id="text">Melkerijstraat 14 Lotenhulle/Aalter 9880
+          <br>
+        </p>
+        <!--<div id="map"></div>-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <script>
+          function initMap() {
+            var myLatLng = {
+              lat: 51.047557, lng: 3.464535};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 17,
+              center: myLatLng
+            }
+                                         );
+            var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              title: ''
+            }
+                                               );
+          }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqBQ1Er7M083gANsHXMJ7xX_ZqBobay-0&callback=initMap">
+        </script>
+      </div>
+    </div>
+  </body>
 </html>
 <!-- Site developed by Wout Corijn	-->
