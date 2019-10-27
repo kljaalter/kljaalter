@@ -28,9 +28,9 @@ body {
 #logo {
 	float:left;
 	height:120px;
-	width:120px;
+	width:auto;
 	margin-left:60px;
-	margin-top:30px;
+	margin-top:35px;
 }
 
 #logo_new {
