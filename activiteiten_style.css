@@ -1,0 +1,28 @@
+#calendar {
+	margin-top:180px;
+	width:calc(100% - 40px);
+	margin-left:20px;
+	height:400px;
+}
+
+#main {
+	height:100%;
+}
+     /* mobile */
+	@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 736px)
+{
+#calendar_div {
+	width:100%;
+	height:380px;
+	position:absolute;
+}	
+
+#calendar {
+	width: calc(100% - 40px);
+	margin-top:170px;
+	margin-left:20px;
+	height:100%;
+}
+}

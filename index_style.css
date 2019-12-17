@@ -1,0 +1,25 @@
+#video {
+	width:560px;
+	height:300px;
+}
+.text {
+	width:560px;
+} 
+
+#main {
+	height:1200px;
+}
+     /* mobile */
+	@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 736px)
+{
+	#video {
+	width: 100%;
+	height:150px;
+}
+.text {
+	width: 100%;
+} 
+}
+}

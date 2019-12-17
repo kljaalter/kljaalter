@@ -1,0 +1,31 @@
+#bestuur_ul {
+list-style-type: none;
+padding: 0;
+}
+#bestuur_li {
+padding-bottom: 30px;
+}
+#bestuur_li p {
+text-decoration: none;
+color:black;
+font-size:26px;
+margin: 0px 0 10px 0;
+}
+#foto {
+width:200px;
+height:auto;
+}
+#main {
+	height:1800px;
+}
+
+
+     /* mobile */
+	@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 736px)
+{
+#bestuur_li p {
+font-size:20px;
+}
+}
