@@ -2,10 +2,6 @@
 	width:560px;
 	height:300px;
 }
-.text {
-	width:560px;
-} 
-
 
 #foto {
 	width:300px;
@@ -25,7 +21,7 @@ and (max-device-width : 736px)
 }
 .text {
 	width: 100%;
-} 
+}
 #foto {
 	width:250px;
 }
