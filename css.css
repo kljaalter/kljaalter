@@ -39,7 +39,7 @@ a {
 #logo {
 	float:left;
 	height:100px;
-	margin:15px;
+	margin:15px 0px;
 }
 
 #logomobile {
@@ -76,7 +76,7 @@ a {
 
 #content {
 	position:absolute;
-	margin:130px 20px 0px 20px;
+	margin:130px 0px 0px 0px;
 	width:900px;
 	font-size:16px;
 }
