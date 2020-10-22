@@ -1,3 +1,12 @@
 #affiche {
   width: 500px;
 }
+
+/* mobile */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 736px)
+{
+#fotomaand {
+  width: 500px;
+}
