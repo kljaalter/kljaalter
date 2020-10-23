@@ -7,6 +7,6 @@
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-#fotomaand {
-  width: 500px;
+#affiche {
+  width: 250px;
 }
