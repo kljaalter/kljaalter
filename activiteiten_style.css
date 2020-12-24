@@ -1,3 +1,4 @@
+
 #calendar {
 	margin-top:180px;
 	width:calc(100% - 40px);
@@ -13,7 +14,8 @@ and (max-device-width : 736px)
 	width:100%;
 	height:380px;
 	position:absolute;
-}	
+			background-color:#b8d0db;
+}
 
 #calendar {
 	width: calc(100% - 40px);
