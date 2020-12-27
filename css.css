@@ -1,5 +1,9 @@
 /*rood: #ee2923*/
 
+html {
+  overflow-y: scroll;
+}
+
 #snow {
     position: fixed;
     top: 0;
