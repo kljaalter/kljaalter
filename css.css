@@ -67,8 +67,8 @@ a {
 }
 
 #ul {
-	margin-left:0px;
-	margin-top:48px;
+	margin:48px 0 0 8px;
+  padding: 0;
 	float:left;
 	list-style-type: none;
 }
@@ -80,7 +80,7 @@ a {
 #li a {
     display: block;
     color: white;
-    padding: 15px;
+    padding: 12px;
     text-decoration: none;
     font-family: VAG, Arial;
 	  font-size:25px;
@@ -175,7 +175,7 @@ display:none;
 
 #ul {
 	margin-right:0px;
-	margin-top:15px;
+	margin-top:8px;
 	float:none;
 	list-style-type: none;
 }
@@ -186,8 +186,8 @@ display:none;
 
 
 #li a {
-	padding:0px 0px 5px 90px;
-	font-size:19px;
+	padding:0px 0px 2px 0px;
+	font-size:17px;
 	cursor:none;
 }
 
@@ -195,7 +195,7 @@ display:none;
 	margin:150px 20px 0px 20px;
 	width:auto;
 	height:100%;
-	font-size:14px;
+	font-size:17px;
 }
 #nav {
 	margin-right:20px;
