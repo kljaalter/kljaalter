@@ -66,18 +66,18 @@ a {
 	display:none;
 }
 
-#ul {
+.ulheader {
 	margin:48px 0 0 8px;
   padding: 0;
 	float:left;
 	list-style-type: none;
 }
 
-#li {
+.liheader {
 	float:left;
 }
 
-#li a {
+.liheader a {
     display: block;
     color: white;
     padding: 12px;
@@ -87,7 +87,7 @@ a {
 	  cursor:pointer;
 }
 
-#li a:hover {
+.liheader a:hover {
   color: #80cc28;
 }
 
@@ -106,7 +106,7 @@ a {
 	font-size:16px;
 }
 
-#title {
+.title {
   font-family: VAG, Arial;
 	padding-top:20px;
 	font-size:26px;
@@ -173,19 +173,19 @@ display:none;
 	margin:15px;
 }
 
-#ul {
+.ulheader {
 	margin-right:0px;
 	margin-top:8px;
 	float:none;
 	list-style-type: none;
 }
 
-#li {
+.liheader {
 	float:right;
 }
 
 
-#li a {
+.liheader a {
 	padding:0px 0px 2px 0px;
 	font-size:17px;
 	cursor:none;

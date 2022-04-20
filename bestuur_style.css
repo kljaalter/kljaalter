@@ -1,21 +1,21 @@
-#bestuur_ul {
+.bestuur_ul {
 list-style-type: none;
 padding: 0;
 }
-#bestuur_li {
+.bestuur_li {
 padding-bottom: 30px;
 }
-#bestuur_li #naam {
+.bestuur_li .naam {
 text-decoration: none;
 color:black;
 font-size:26px;
 margin: 0;
 }
-#bestuur_li #functie {
+.bestuur_li .functie {
 	font-size:20px;
 	margin:0 0 10px 0;
 }
-#foto {
+.bestuur_li .foto {
 width:200px;
 height:auto;
 }
@@ -26,10 +26,10 @@ height:auto;
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-#bestuur_li #naam {
+.bestuur_li .naam {
 font-size:20px;
 }
-#bestuur_li #functie {
+.bestuur_li .functie {
 	font-size:17px;
 	{
 }
