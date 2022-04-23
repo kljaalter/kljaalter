@@ -56,6 +56,7 @@ a {
   background-color:#017e43;
 }
 
+
 #logo {
 	float:left;
 	height:100px;
@@ -83,7 +84,7 @@ a {
     padding: 12px;
     text-decoration: none;
     font-family: VAG, Arial;
-	  font-size:25px;
+	  font-size:23px;
 	  cursor:pointer;
 }
 
