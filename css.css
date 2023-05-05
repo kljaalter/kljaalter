@@ -71,19 +71,15 @@ pre {
   font-family: Arial;
 }
 
-.ulheader {
-	margin:48px 0 0 8px;
-  padding: 0;
-	float:left;
-	list-style-type: none;
+#nav {
+	display: flex;
 }
 
-.liheader {
-	float:left;
+#nav > div {
+	margin-top: 64px;
 }
 
-.liheader a {
-    display: block;
+.navItem a {
     color: white;
     padding: 12px;
     text-decoration: none;
@@ -92,16 +88,8 @@ pre {
 	  cursor:pointer;
 }
 
-.liheader a:hover {
+.navItem a:hover {
   color: #80cc28;
-}
-
-#fb {
-	padding:20px;
-}
-
-#insta {
-	padding:20px;
 }
 
 #content {
@@ -172,28 +160,28 @@ display:none;
 }
 
 #logomobile {
-	display:block;
-	float:left;
-	height:100px;
-	margin:15px;
+display:block;
+float:left;
+height:100px;
+margin:15px;
 }
 
-.ulheader {
-	margin-right:0px;
-	margin-top:8px;
-	float:none;
-	list-style-type: none;
-}
-
-.liheader {
+#nav {
 	float:right;
+	flex-direction: column;
+	margin: 10px 20px 0 0;
+}
+
+#nav > div {
+margin-top: 0px;
 }
 
 
-.liheader a {
-	padding:0px 0px 2px 0px;
+.navItem a {
 	font-size:17px;
 	cursor:none;
+	float: right;
+	padding: 0;
 }
 
 #content {
@@ -202,10 +190,9 @@ display:none;
 	height:100%;
 	font-size:14px;
 }
-#nav {
-	margin-right:20px;
-	width:90px;
-	height:auto;
-	float:right;
+
+.title {
+	font-size:22px;
 }
+
 }
