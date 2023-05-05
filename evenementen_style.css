@@ -7,9 +7,13 @@
 	width: 100%;
 }
 
-#Mobile {
-	display: none;
-	width: 100%;
+#flexContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#flexContainer > div {
+	width: 25%;
 }
 
      /* mobile */
