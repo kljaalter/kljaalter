@@ -1,23 +1,33 @@
-.bestuur_ul {
-list-style-type: none;
-padding: 0;
-}
-.bestuur_li {
-padding-bottom: 30px;
-}
-.bestuur_li .naam {
+
+.naam {
 text-decoration: none;
 color:black;
-font-size:24px;
+font-size:22px;
 margin: 0;
 }
-.bestuur_li .functie {
-	font-size:18px;
-	margin:0 0 10px 0;
+
+.functie {
+	font-size:15px;
+	margin: 0 0 20px 0;
 }
-.bestuur_li .foto {
-width:200px;
+.foto {
+width:70%;
 height:auto;
+bottom: 0;
+}
+
+#flexContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#flexContainer > div {
+	text-align: center;
+	position: relative;
+	height: auto;
+	width: 33%;
+	margin-bottom: 60px;
 }
 
 
@@ -26,10 +36,15 @@ height:auto;
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-.bestuur_li .naam {
+.naam {
 font-size:20px;
 }
-.bestuur_li .functie {
-	font-size:17px;
-	{
+.functie {
+	font-size: 17px;
+}
+
+#flexContainer > div {
+	text-align: left;
+	width: 75%;
+}
 }
