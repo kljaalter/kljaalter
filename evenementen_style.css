@@ -2,10 +2,6 @@
 	width: 100%;
 }
 
-#Desktop {
-	display: block;
-	width: 100%;
-}
 
 #flexContainer {
 	display: flex;
@@ -21,11 +17,7 @@
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-	#Desktop {
-		display: none;
-	}
-
-	#Mobile {
-		display: block;
-	}
+#flexContainer > div {
+	width: 50%;
+}
 }
