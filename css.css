@@ -105,6 +105,12 @@ pre {
 	font-size:26px;
 	text-decoration: underline;
 }
+
+.text {
+	margin:30px 50px 0px 0px;
+	font-size:16px;
+}
+
 	/*** Works on common browsers ***/
 ::selection {
     background-color: #e21818;
@@ -193,6 +199,11 @@ margin-top: 0px;
 
 .title {
 	font-size:22px;
+}
+
+.text {
+	margin:00px 20px 0px 0px;
+	font-size:14px;
 }
 
 }
