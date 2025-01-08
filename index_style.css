@@ -26,6 +26,17 @@
 	font-size: 20px;
 }
 
+.dfl_button:hover {
+	background-color: #0235ac;
+	color: #ffffff;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Agency FB";
+	font-size: 20px;
+}
+
      /* mobile */
 	@media only screen
 and (min-device-width : 320px)
