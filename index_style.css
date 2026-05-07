@@ -58,7 +58,7 @@ and (max-device-width : 736px) {
 			width: 250px;
 		}
 
-		#affiche {
+		.affiche {
 			width: 250px;
 		}
 	}
