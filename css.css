@@ -17,7 +17,8 @@ html {
 
 body {
 	margin: 0;
-	font-family:Arial;
+	font-family: Arial;
+	font-weight: bold;
 }
 
 a {
@@ -89,15 +90,15 @@ pre {
 }
 
 .title {
-  font-family: VAG, Arial;
+	font-family: VAG, Arial;
+	font-weight: normal;
 	padding-top:20px;
 	font-size:26px;
 	text-decoration: underline;
 }
 
 .text {
-	margin:30px 50px 0px 0px;
-	font-size:16px;
+	font-weight: normal;
 }
 
 	/*** Works on common browsers ***/
